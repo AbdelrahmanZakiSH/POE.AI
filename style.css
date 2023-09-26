@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --Purble-500: #D38CFF;
+    --Cyan-500: #93FFF9;
+    --Dark-cyan-600: #91D4FC;
+    --White-500: #FFFFFF;
+    --Light-grey-400: #CDCDCD;
+    --Grey-500: #686868;
+    --Button-fill: #8A8A8A;
+    --Button-stroke: #767676;
+    --Nav-Bold-10: 10px;
+    --H1-Bold-64: 64px;
+    --H2-Bold-24: 24px;
+    --Cards-Headline-Medium-24: 24px;
+    --Cards-Paragragh-Medium-10: 10px;
+    --Cards-Price-SemiBold-48: 48px;
+    --Buttons-Text-SemiBold-12: 12px;
+    --Logo-Text-Bold-24: 24px;
+    --Cards-Features-SemiBold-12: 12px;
+}
