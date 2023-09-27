@@ -94,3 +94,42 @@ header{
     font-weight: 700;
     line-height: normal;
 }
+
+.Nav-right{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+}
+
+.Nav-right button{
+    width: 95px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: var(--Button-fill);
+    border: var(--Button-stroke);
+    border-radius: 50px;
+    color: var(--White-500);
+}
+
+.Hero{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.Headlines{
+    text-align: center;
+    font-family: 'mona sans', sans-serif;
+    color: var(--White-500);
+}
+
+.Headlines h1{
+    font-size: var(--H1-Bold-64);
+}
+
+.Headlines h2{
+    font-size: var(--H2-Bold-24);
+}
