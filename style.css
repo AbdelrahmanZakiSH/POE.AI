@@ -126,6 +126,27 @@ header{
     color: var(--White-500);
 }
 
+.Headlines .Y{
+    background: linear-gradient(to bottom right, #FFF 0%, #FFFDFA 11%, #FFEDD8 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #FFF 0%, #FFFDFA 11%, #FFEDD8 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #FFF 0%, #FFFDFA 11%, #FFEDD8 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #FFF 0%, #FFFDFA 11%, #FFEDD8 50%) top right / 50% 50% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Headlines .OUR{
+    background: linear-gradient(180deg, #FFEBB8 0%, #FED6FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Headlines .PLAN{
+    background: radial-gradient(50% 50% at 50% 50%, #FFD2B9 0%, #F8CFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .Headlines h1{
     font-size: var(--H1-Bold-64);
 }
