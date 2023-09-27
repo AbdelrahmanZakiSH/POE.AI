@@ -4,6 +4,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font: 1em sans-serif;
 }
 
 :root{
@@ -13,7 +14,7 @@
     --White-500: #FFFFFF;
     --Light-grey-400: #CDCDCD;
     --Grey-500: #686868;
-    --Button-fill: #8A8A8A;
+    --Button-fill: #8a8a8a2d;
     --Button-stroke: #767676;
     --Nav-Bold-10: 10px;
     --H1-Bold-64: 64px;
@@ -27,5 +28,78 @@
 }
 
 body{
-    
+    background-image: url(Background.jpg);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.665);
+    height: 85vh;
+    width: 90%;
+   margin-top: 70px;
+   margin-left: auto;
+   margin-bottom: auto;
+   margin-right: auto;
+   border-radius: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width:250px;
+}
+
+.logo h1 {
+    font-size: var(--H1-Bold-64);
+    color: var(--White-500);
+    position: absolute;
+    left: 160px;
+    font-weight: 900;
+}
+
+.service ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.service li{
+    margin-right: 80px;
+    align-items: center;
+    text-align: center;
+   margin-top: 50px;
+   font-size: var(--H2-Bold-24);
+   color: var(--White-500);
+   font-weight: 600;
+}
+
+.btn {
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+ 
+}
+
+.btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--Button-fill);
+    border: var(--Button-stroke);
+    color: var(--White-500);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
